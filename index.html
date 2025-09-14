@@ -1,191 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJPYT7LE1M"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-WWGMWNG788');
-     </script>
-<!-- Just Checking -->
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-
-body {
-font-family: 'Inter', sans-serif;
-background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
-color: #f0f0f0;
-min-height: 100vh;
-}
-
-
-header {
-text-align: center;
-padding: 2rem 1rem;
-background-color: rgba(0, 0, 0, 0.3);
-}
-
-
-header h1 {
-font-size: 2.8rem;
-margin-bottom: 0.5rem;
-}
-
-
-header p {
-font-size: 1.1rem;
-color: #a9c9ff;
-}
-
-
-.container {
-max-width: 1200px;
-margin: auto;
-padding: 2rem 1rem;
-}
-
-
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 2rem;
-}
-
-
-.card {
-background: rgba(255, 255, 255, 0.05);
-border-radius: 15px;
-padding: 1.5rem;
-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-transition: transform 0.3s ease;
-}
-
-
-.card:hover {
-transform: translateY(-6px);
-}
-.card h3 {
-font-size: 1.3rem;
-margin-bottom: 0.5rem;
-}
-
-
-.card p {
-font-size: 0.95rem;
-color: #ccc;
-}
-
-
-.card a {
-display: inline-block;
-margin-top: 1rem;
-color: #7fc7ff;
-font-weight: bold;
-text-decoration: none;
-}
-
-
-.card a:hover {
-text-decoration: underline;
-}
-
-
-footer {
-text-align: center;
-padding: 2rem;
-font-size: 0.9rem;
-color: #aaa;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Prajwal Gowda</title>
+  <!-- Google Analytics (GA4) tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config','G-WWGMWNG788');
+  </script>
+  <!-- Optional: Immediately redirect -->
+  <meta http-equiv="refresh" content="2; URL=NOTION_URL">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #1a1a1a;
+      color: #ddd;
+      font-family: sans-serif;
+      flex-direction: column;
+    }
+    a {
+      color: #00bcd4;
+      font-size: 1.2rem;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+  </style>
 </head>
-
-
-    <body>
-    <header>
-    
-     <div class="animation-wrapper">
-        <lottie-player
-            src="https://assets4.lottiefiles.com/packages/lf20_jcikwtux.json"
-            background="transparent"
-            speed="1"
-            style="width: 300px; height: 300px;"
-            loop
-            autoplay>
-        </lottie-player>
-    </div>
-   
-
-    <h1>Prajwal Gowda S</h1>
-    <p>Data Analyst | Power BI Developer | Python & SQL Specialist</p>
-    </header>
-
-
-    <main class="container">
-    <div class="grid">
-    <div class="card">
-    <h3>UK Data Analyst Job Market</h3>
-    <p>Live job market insights via API with Power BI. Visualizes UK hiring trends by location, contract type, and skills.</p>
-    <a href="/projects/UKjobMarket.html">View Project →</a>
-    </div>
-
-
-    <div class="card">
-    <h3>Finance KPI Dashboard</h3>
-    <p>Executive-ready Power BI dashboard visualizing key financial metrics like OPEX, revenue, and margin trends.</p>
-    <a href="#">Coming Soon →</a>
-    </div>
-
-
-    <div class="card">
-    <h3>Credit Risk Analysis</h3>
-    <p>ML-based risk prediction pipeline built with Python, Pandas, and classification models to evaluate creditworthiness.</p>
-    <a href="#">Coming Soon →</a>
-    </div>
-
-
-    <div class="card">
-    <h3>Netflix Content Recommender</h3>
-    <p>Built with TF-IDF, NLTK, and Streamlit. Recommends shows using NLP from Netflix’s metadata.</p>
-    <a href="#">Coming Soon →</a>
-    </div>
-
-
-    <div class="card">
-    <h3>Customer Churn Prediction</h3>
-    <p>End-to-end ML pipeline using Telco dataset and Random Forest/XGBoost. Streamlit app deployed.</p>
-    <a href="#">Coming Soon →</a>
-    </div>
-
-
-    <div class="card">
-    <h3>Comparative Sentiment Analysis</h3>
-    <p>MSc Dissertation using VADER, LSTM, RoBERTa to compare sentiment analysis models on review data.</p>
-    <a href="#">Coming Soon →</a>
-    </div>
-    </div>
-    </main>
-
-
-    <footer>
-    © 2025 Prajwal Gowda S —
-    <a href="https://github.com/Prajwal518" target="_blank">GitHub</a> •
-    <a href="https://www.linkedin.com/in/prajwal-gowda-s" target="_blank">LinkedIn</a>
-    </footer>
-    </body>
+<body>
+  <h1>Redirecting to My Portfolio...</h1>
+  <p>If you are not redirected automatically, <a href="https://second-roquefort-955.notion.site/Hi-I-m-Prajwal-Gowda-S-1fe9e8b0809880d69de2dfd6978f607b">click here</a>.</p>
+</body>
 </html>
