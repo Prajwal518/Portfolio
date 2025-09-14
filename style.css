@@ -1,69 +1,71 @@
+/* style.css */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
   margin: 0;
-  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c1c1e;
+  color: #ffffff;
 }
 
 header {
-  background: #20232a;
-  color: #fff;
   text-align: center;
-  padding: 50px 20px;
+  padding: 40px 20px 10px;
+  background: #2c2c2e;
 }
 
-header .btn {
-  display: inline-block;
-  background: #61dafb;
-  color: #20232a;
-  padding: 10px 20px;
-  margin-top: 20px;
-  text-decoration: none;
-  border-radius: 5px;
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
 }
 
-section {
-  padding: 40px 20px;
-  max-width: 1000px;
+header p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
   margin: auto;
 }
 
-h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 5px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  background: #f3f3f3;
-  margin: 10px 0;
-  padding: 10px;
-  border-left: 5px solid #61dafb;
-}
-
 .project-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px 0;
+  background-color: #2c2c2e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 .project-card img {
   width: 100%;
-  max-height: 200px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 5px;
+}
+
+.project-card h2 {
+  font-size: 1.1em;
+  padding: 15px;
+  color: #fff;
+  margin: 0;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #f2f2f2;
-  margin-top: 40px;
+  background-color: #2c2c2e;
+  color: #aaa;
+  font-size: 0.9em;
 }
