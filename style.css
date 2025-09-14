@@ -69,3 +69,13 @@ footer {
   color: #aaa;
   font-size: 0.9em;
 }
+
+.animation-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+lottie-player {
+  max-width: 350px;
+}
