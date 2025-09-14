@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UK Data Analyst Job Market | Prajwal Gowda S</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UK Data Analyst Job Market Analysis</title>
+  <link rel="stylesheet" href="style1.css" />
 </head>
+<body class="project-page dark-theme">
 
-<body>
   <header>
     <nav>
-      <h1>Prajwal Gowda S</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#dashboard">Dashboard</a></li>
-        <li><a href="#link">Report Link</a></li>
+      <h1 class="logo">Prajwal Gowda S</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="#summary">📌 Summary</a></li>
+        <li><a href="#tools">🛠 Tools</a></li>
+        <li><a href="#screenshot">📷 Dashboard</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="content">
-      <h2>UK Job Market Analysis for Data Roles – 2025</h2>
-      <p>A Power BI dashboard project to explore salary trends, demand by region, contract types, and more — built using API + Python + Power BI.</p>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>UK Job Market Analysis for Data Roles – <span class="highlight">2025</span></h2>
+      <p class="tagline">Live UK job data visualized through API-powered dashboards</p>
+    </section>
 
-  <section class="project-details">
-    <h3>📌 Project Summary</h3>
-    <p>Aspiring data professionals in the UK often struggle to identify current job trends, industry demands, and competitive salary ranges. This dashboard was built to analyze live job postings using API data, helping candidates and recruiters understand key hiring trends across locations, industries, and contract types.</p>
-  </section>
+    <section id="summary" class="section">
+      <h3>📌 Project Summary</h3>
+      <p>
+        Aspiring data professionals in the UK often struggle to identify current job trends, industry demands, and competitive salary ranges. 
+        This Power BI dashboard was built to analyze live job postings using API data, helping candidates and recruiters understand key hiring trends across 
+        locations, industries, and contract types.
+      </p>
+    </section>
 
-  <section id="tools" class="tools">
-    <h3>🛠 Tools Used</h3>
-    <ul>
-      <li>Python</li>
-      <li>Pandas</li>
-      <li>REST API (Adzuna)</li>
-      <li>Power BI</li>
-    </ul>
-  </section>
+    <section id="tools" class="section">
+      <h3>🛠 Tools Used</h3>
+      <ul class="tools">
+        <li>Python</li>
+        <li>Pandas</li>
+        <li>REST API (Adzuna)</li>
+        <li>Power BI</li>
+      </ul>
+    </section>
 
-  <section id="dashboard" class="dashboard">
-    <iframe title="Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=b3fcd910-69d3-4a66-81e8-d47e476febb3&autoAuth=true&ctid=4ff8f4ac-6687-4fea-aa6a-c01a732f808b" frameborder="0" allowFullScreen="true"></iframe>
-  </section>
+    <section id="screenshot" class="section">
+      <h3>📷 Dashboard Preview</h3>
+      <p>Screenshot of the interactive Power BI dashboard:</p>
+      <img src="images/UKjob_Dashboard.png" alt="UK Job Market Dashboard Screenshot" class="project-image" />
+    </section>
 
-  <section id="link" class="report-link">
-    <h3>🔗 View Interactive Dashboard</h3>
-    <a href="https://app.powerbi.com/reportEmbed?reportId=b3fcd910-69d3-4a66-81e8-d47e476febb3&autoAuth=true&ctid=4ff8f4ac-6687-4fea-aa6a-c01a732f808b" target="_blank" class="cta-button">Open in Power BI</a>
-  </section>
+    <section class="section link-box">
+      <a href="https://app.powerbi.com/reportEmbed?reportId=b3fcd910-69d3-4a66-81e8-d47e476febb3" target="_blank" class="btn">
+        🔗 View Power BI Report
+      </a>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Prajwal Gowda S. All rights reserved.</p>
+    <p>&copy; 2025 Prajwal Gowda S | Data Portfolio</p>
   </footer>
-</body>
 
+</body>
 </html>
