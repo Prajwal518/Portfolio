@@ -1,66 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>UK Data Analyst Job Market Analysis</title>
-  <link rel="stylesheet" href="style1.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Data Analyst Job Market | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 800;
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .tools {
+      text-align: center;
+      font-weight: 600;
+      color: #7fc7ff;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .project-image {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .project-image img {
+      width: 100%;
+      display: block;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: #1e90ff;
+      padding: 12px 24px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #559de0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #7fc7ff;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body class="project-page dark-theme">
 
-  <header>
-    <nav>
-      <h1 class="logo">Prajwal Gowda S</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">🏠 Home</a></li>
-        <li><a href="#summary">📌 Summary</a></li>
-        <li><a href="#tools">🛠 Tools</a></li>
-        <li><a href="#screenshot">📷 Dashboard</a></li>
-      </ul>
-    </nav>
-  </header>
+<body>
+  <div class="container">
+    <h1>UK Data Analyst Job Market Analysis</h1>
+    <p class="tools">Tools Used: API, Python, Pandas, Power BI</p>
 
-  <main>
-    <section class="hero">
-      <h2>UK Job Market Analysis for Data Roles – <span class="highlight">2025</span></h2>
-      <p class="tagline">Live UK job data visualized through API-powered dashboards</p>
-    </section>
+    <div class="project-description">
+      Aspiring data professionals in the UK often struggle to identify current job trends, industry demands, and competitive salary ranges. This dashboard was built to analyze live job postings using API data, helping candidates and recruiters understand key hiring trends across locations, industries, and contract types.
+    </div>
 
-    <section id="summary" class="section">
-      <h3>📌 Project Summary</h3>
-      <p>
-        Aspiring data professionals in the UK often struggle to identify current job trends, industry demands, and competitive salary ranges. 
-        This Power BI dashboard was built to analyze live job postings using API data, helping candidates and recruiters understand key hiring trends across 
-        locations, industries, and contract types.
-      </p>
-    </section>
+    <div class="project-image">
+      <img src="../images/UKjob_Dashboard.png" alt="Dashboard Screenshot">
+    </div>
 
-    <section id="tools" class="section">
-      <h3>🛠 Tools Used</h3>
-      <ul class="tools">
-        <li>Python</li>
-        <li>Pandas</li>
-        <li>REST API (Adzuna)</li>
-        <li>Power BI</li>
-      </ul>
-    </section>
-
-    <section id="screenshot" class="section">
-      <h3>📷 Dashboard Preview</h3>
-      <p>Screenshot of the interactive Power BI dashboard:</p>
-      <img src="images/UKjob_Dashboard.png" alt="UK Job Market Dashboard Screenshot" class="project-image" />
-    </section>
-
-    <section class="section link-box">
-      <a href="https://app.powerbi.com/reportEmbed?reportId=b3fcd910-69d3-4a66-81e8-d47e476febb3" target="_blank" class="btn">
-        🔗 View Power BI Report
+    <div class="cta">
+      <a href="https://app.powerbi.com/reportEmbed?reportId=b3fcd910-69d3-4a66-81e8-d47e476febb3&autoAuth=true&ctid=4ff8f4ac-6687-4fea-aa6a-c01a732f808b" target="_blank">
+        View Full Dashboard ↗
       </a>
-    </section>
-  </main>
+    </div>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Prajwal Gowda S | Data Portfolio</p>
+    © 2025 Prajwal Gowda S — 
+    <a href="https://github.com/Prajwal518" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/prajwal-gowda-s" target="_blank">LinkedIn</a>
+    <a href="mailto:prajwalgowdas.232@gmail.com">Email</a>
   </footer>
-
 </body>
+
 </html>

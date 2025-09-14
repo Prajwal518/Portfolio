@@ -14,57 +14,163 @@
 <!-- Just Checking -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prajwal Gowda S | Data Science Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+font-family: 'Inter', sans-serif;
+background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+color: #f0f0f0;
+min-height: 100vh;
+}
+
+
+header {
+text-align: center;
+padding: 2rem 1rem;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+header h1 {
+font-size: 2.8rem;
+margin-bottom: 0.5rem;
+}
+
+
+header p {
+font-size: 1.1rem;
+color: #a9c9ff;
+}
+
+
+.container {
+max-width: 1200px;
+margin: auto;
+padding: 2rem 1rem;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
+
+
+.card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 15px;
+padding: 1.5rem;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+transform: translateY(-6px);
+}
+.card h3 {
+font-size: 1.3rem;
+margin-bottom: 0.5rem;
+}
+
+
+.card p {
+font-size: 0.95rem;
+color: #ccc;
+}
+
+
+.card a {
+display: inline-block;
+margin-top: 1rem;
+color: #7fc7ff;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+.card a:hover {
+text-decoration: underline;
+}
+
+
+footer {
+text-align: center;
+padding: 2rem;
+font-size: 0.9rem;
+color: #aaa;
+}
+</style>
 </head>
-<header>
-<h1>Prajwal Gowda S</h1>
-<p>Data Analyst & MSc Data Science Student</p>
-</header>
 
 
-<section class="projects">
-<div class="project-card">
-<a href="projects/UKjobMarket.html">
-<img src="images/UKjob_Dashboard.png" alt="UK Job Market">
-<h2>UK Data Analyst Job Market Analysis</h2>
-</a>
-</div>
-<div class="project-card">
-<a href="projects/finance-kpi.html">
-<img src="images/finance-kpi.png" alt="Finance KPI">
-<h2>Finance KPI</h2>
-</a>
-</div>
-<div class="project-card">
-<a href="projects/credit-risk.html">
-<img src="images/credit-risk.png" alt="Credit Risk">
-<h2>Credit Risk Analysis</h2>
-</a>
-</div>
-<div class="project-card">
-<a href="projects/netflix-recommender.html">
-<img src="images/netflix.png" alt="Netflix Recommender">
-<h2>Netflix Content Recommender</h2>
-</a>
-</div>
-<div class="project-card">
-<a href="projects/customer-churn.html">
-<img src="images/customer-churn.png" alt="Customer Churn">
-<h2>Customer Churn Prediction (Streamlit)</h2>
-</a>
-</div>
-<div class="project-card">
-<a href="projects/sentiment-analysis.html">
-<img src="images/sentiment.png" alt="Sentiment Analysis">
-<h2>Comparative Sentiment Analysis</h2>
-</a>
-</div>
-</section>
+    <body>
+    <header>
+    <h1>Prajwal Gowda S</h1>
+    <p>Data Analyst | Power BI Developer | Python & SQL Specialist</p>
+    </header>
 
 
-<footer>
-<p>&copy; 2025 Prajwal Gowda S | <a href="mailto:youremail@example.com">Email Me</a></p>
-</footer>
-</body>
+    <main class="container">
+    <div class="grid">
+    <div class="card">
+    <h3>UK Data Analyst Job Market</h3>
+    <p>Live job market insights via API with Power BI. Visualizes UK hiring trends by location, contract type, and skills.</p>
+    <a href="uk-job-market.html">View Project →</a>
+    </div>
+
+
+    <div class="card">
+    <h3>Finance KPI Dashboard</h3>
+    <p>Executive-ready Power BI dashboard visualizing key financial metrics like OPEX, revenue, and margin trends.</p>
+    <a href="#">Coming Soon →</a>
+    </div>
+
+
+    <div class="card">
+    <h3>Credit Risk Analysis</h3>
+    <p>ML-based risk prediction pipeline built with Python, Pandas, and classification models to evaluate creditworthiness.</p>
+    <a href="#">Coming Soon →</a>
+    </div>
+
+
+    <div class="card">
+    <h3>Netflix Content Recommender</h3>
+    <p>Built with TF-IDF, NLTK, and Streamlit. Recommends shows using NLP from Netflix’s metadata.</p>
+    <a href="#">Coming Soon →</a>
+    </div>
+
+
+    <div class="card">
+    <h3>Customer Churn Prediction</h3>
+    <p>End-to-end ML pipeline using Telco dataset and Random Forest/XGBoost. Streamlit app deployed.</p>
+    <a href="#">Coming Soon →</a>
+    </div>
+
+
+    <div class="card">
+    <h3>Comparative Sentiment Analysis</h3>
+    <p>MSc Dissertation using VADER, LSTM, RoBERTa to compare sentiment analysis models on review data.</p>
+    <a href="#">Coming Soon →</a>
+    </div>
+    </div>
+    </main>
+
+
+    <footer>
+    © 2025 Prajwal Gowda S —
+    <a href="https://github.com/Prajwal518" target="_blank">GitHub</a> •
+    <a href="https://www.linkedin.com/in/prajwal-gowda-s" target="_blank">LinkedIn</a>
+    </footer>
+    </body>
 </html>
